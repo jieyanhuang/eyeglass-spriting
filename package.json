@@ -1,9 +1,9 @@
 {
-  "name": "eyeglass-spriting",
-  "description": "Automatically generate and consume image sprites from your Sass files.",
+  "name": "eyeglass-spriting-jieyanhuang",
+  "description": "Automatically generate and consume image sprites from your Sass files. MIRROR of eyeglass-spriting which has not been published in months",
   "version": "0.9.2",
   "author": {
-    "name": "Joanna Wang",
+    "name": "Joanna Wang (fork by Jeremy Huang)",
     "email": "joanna.j.wang@gmail.com",
     "url": "https://github.com/joannajw"
   },
@@ -37,9 +37,9 @@
     "should": "^7.1.0"
   },
   "dependencies": {
-    "lwip": "^0.0.8",
-    "node-sass-utils": "^1.1.2",
-    "minimatch": "^2.0.8"
+    "lwip": "git://github.com/jieyanhuang/lwip.git#8007189",
+    "minimatch": "^2.0.8",
+    "node-sass-utils": "^1.1.2"
   },
   "scripts": {
     "test": "./node_modules/.bin/gulp test"
